@@ -9,9 +9,7 @@ print(users_list)
 
 def change_nums(first, last, step):
     for i in range(first, last, step):
-        users_list_elem_copy = users_list[i]
-        users_list[i] = users_list[i + 1]
-        users_list[i + 1] = users_list_elem_copy
+        users_list[i], users_list[i+1] = users_list[i+1], users_list[i]
 
 
 if len(users_list) % 2 == 0:

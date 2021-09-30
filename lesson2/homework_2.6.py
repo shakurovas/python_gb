@@ -52,7 +52,7 @@ def get_analytics(all_goods):
         data['prices'].append(one_good[1]['price'])
         data['quantities'].append(one_good[1]['quantity'])
         data['units'].append(one_good[1]['units'])
-
+    data['units'] = list(set(data['units']))
     print(data)
 
 
