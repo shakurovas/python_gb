@@ -1,0 +1,10 @@
+Shakurova 500000
+Ivanov 30000
+Kraselnikova 12000
+Voynovich 80000
+Khalikova 350000
+Yeltsina 16000
+Chernova 150000
+Rogozina 13000
+Khoroshev 550000
+Ubagin 450000
